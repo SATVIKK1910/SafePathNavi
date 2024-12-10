@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "SafePathNav",
+    "slug": "safepathnav",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": false,
+    "android": {
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyAKDh3YqEKHPJz9fyrtztcl9IqAQFQqfj8"
+        }
+      },
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.rishikumar200715.SafePathNav"
+    },
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#5E17EB"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "081e64f8-b0de-4f86-810d-a733c21f1c15"
+      }
+    },
+    "owner": "rishikumar200715555"
+  }
+}
